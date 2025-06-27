@@ -14,11 +14,14 @@ pip install mkdocs-mask-plugin
 
 ### 1. Enable the Plugin
 
-In your `mkdocs.yml` configuration file, add the plugin:
+In your `mkdocs.yml` configuration file, add the plugin and css:
 
 ```yaml
 plugins:
   - mask
+
+extra_css:
+  - assets/masked.css
 ```
 
 ### 2. Use the `!mask[...]` Syntax in Markdown
