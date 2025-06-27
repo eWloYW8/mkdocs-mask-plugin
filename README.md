@@ -2,6 +2,14 @@
 
 A MkDocs plugin that adds a custom `!mask[...]` syntax to hide text behind a black box until hovered.
 
+## Install
+
+```bash
+pip install mkdocs-mask-plugin
+```
+
+[![Build and Release](https://github.com/eWloYW8/mkdocs-mask-plugin/actions/workflows/release.yml/badge.svg)](https://github.com/eWloYW8/mkdocs-mask-plugin/actions/workflows/release.yml)
+
 ## Usage
 
 ### 1. Enable the Plugin
